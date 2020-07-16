@@ -4,7 +4,7 @@
 Run 
 ```pip install -r requirements.txt```
 ## Usage
-You can take a look on the Example Notebook to understand how to run this implementation.
+You can take a look on the word2vec_example Notebook to understand how to run this implementation.
 
 Create a new word2vec model and initiallize the parameters
 ```
