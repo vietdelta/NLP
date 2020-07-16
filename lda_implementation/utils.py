@@ -3,7 +3,7 @@ from pyvi import ViTokenizer, ViPosTagger
 from pyvi import ViUtils
 
 stop_words = []
-stop_words_file = "./VNmese-stopwords.txt"
+stop_words_file = "./data/VNmese-stopwords.txt"
 stop_words_no_accent = []
 with open(stop_words_file, 'r') as f:
     line = f.readline()

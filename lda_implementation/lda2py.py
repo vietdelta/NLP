@@ -79,6 +79,11 @@ class LDA():
             print(log_likelihood/num_doc)
         self.word_topic_table = normalize(self.word_topic_table,axis=0,norm='l1')
     def get_topic_word(self,no_topic,num_word=10):
+        '''
+        Input: 
+            no_topic: Number of the topic that you want to show
+            num_word: Number of words in that topic that you want to show
+        '''
         if(no_topic>=len(self.topic_count)):
             print("no_topic is exceed the real number of topics")
             return 0
